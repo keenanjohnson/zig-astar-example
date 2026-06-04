@@ -1,0 +1,19 @@
+.{
+    .name = .zig_astar_example,
+    .version = "0.1.0",
+    .minimum_zig_version = "0.16.0",
+    .fingerprint = 0x82510664d1aad94f,
+    .dependencies = .{
+        .zig_astar = .{
+            .url = "git+https://github.com/keenanjohnson/zig-astar?ref=v0.0.1#3c4128ac394850aeef9f715549d12bd6841f8b9e",
+            .hash = "zig_astar-0.1.0-jtu3ZQx2AADT2wBN9QtbLd7-I5ZqkKTAU1pcA8Zpkj5l",
+        },
+    },
+    .paths = .{
+        "build.zig",
+        "build.zig.zon",
+        "src",
+        "README.md",
+        "LICENSE",
+    },
+}
