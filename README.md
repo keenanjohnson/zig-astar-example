@@ -4,6 +4,8 @@ A tiny, silly demo of the [zig-astar](https://github.com/keenanjohnson/zig-astar
 pathfinding library: a mouse scampers through a freshly-generated maze to reach
 the cheese, animated right in your terminal.
 
+![the mouse solving a maze](demo.gif)
+
 ```sh
 zig build run
 ```
